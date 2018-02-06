@@ -1,7 +1,7 @@
-github-uri: https://github.com/agregory999//pcf-concourse-demo
+github-uri: https://github.com/agregory999/pcf-concourse-demo
 github-branch: master
-s3-access-key-id: AKIAIVEEMPHBUWETPEPA
-s3-secret-access-key: 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
+s3-access-key-id: 
+s3-secret-access-key: 
 s3-endpoint: https://s3.amazonaws.com
 s3-bucket-version: pcf-concourse-demo-version  # Create and change this to your own S3 bucket
 s3-bucket-releases: pcf-concourse-demo-releases  # Create and change this to your own S3 bucket
@@ -25,7 +25,7 @@ cf-username-gcp: agregory@pivotal.io
 cf-password-gcp: tprod877
 cf-org-gcp: org1
 cf-space-gcp: concourse-demo
-cf-manifest-host-prod-gcp: oncourse-demo-gcp
+cf-manifest-host-prod-gcp: concourse-demo-gcp
 cf-api-azure:
 cf-username-azure:
 cf-password-azure:
