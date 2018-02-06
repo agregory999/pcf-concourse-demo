@@ -19,13 +19,13 @@ cf-username-aws: agregory@pivotal.io
 cf-password-aws: tprod877
 cf-org-aws: org1
 cf-space-aws: concourse-demo
-cf-manifest-host-prod-aws: concourse-demo-app
-cf-api-gcp:
-cf-username-gcp:
-cf-password-gcp:
-cf-org-gcp:
-cf-space-gcp:
-cf-manifest-host-prod-gcp:
+cf-manifest-host-prod-aws: concourse-demo-aws
+cf-api-gcp: api.sys.pipeline.gcp.arg-pivotal.com
+cf-username-gcp: agregory@pivotal.io
+cf-password-gcp: tprod877
+cf-org-gcp: org1
+cf-space-gcp: concourse-demo
+cf-manifest-host-prod-gcp: oncourse-demo-gcp
 cf-api-azure:
 cf-username-azure:
 cf-password-azure:
