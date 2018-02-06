@@ -1,25 +1,25 @@
-github-uri:
+github-uri: https://github.com/agregory999//pcf-concourse-demo
 github-branch: master
-s3-access-key-id:
-s3-secret-access-key:
-s3-endpoint:
-s3-bucket-version: pcfdemo-releases  # Create and change this to your own S3 bucket
-s3-bucket-releases: pcfdemo-releases  # Create and change this to your own S3 bucket
-s3-bucket-release-candidates: pcfdemo-releases-candidates  # Create and change this to your own S3 bucket
+s3-access-key-id: AKIAIVEEMPHBUWETPEPA
+s3-secret-access-key: YWHwRZgO0M8yRo6m+YOW+UhA0JWBnpEtpQhTdYer
+s3-endpoint: https://s3.amazonaws.com
+s3-bucket-version: pcf-concourse-demo-version  # Create and change this to your own S3 bucket
+s3-bucket-releases: pcf-concourse-demo-releases  # Create and change this to your own S3 bucket
+s3-bucket-release-candidates: pcf-concourse-demo-candidates  # Create and change this to your own S3 bucket
 maven-opts: # -Xms256m -Xmx512m
 maven-config: # -s path/to/settings.xml
-cf-api:
-cf-username:
-cf-password:
-cf-org:
-cf-space:
+cf-api: api.run.pivotal.io
+cf-username: agregory@pivotal.io
+cf-password: 4KidsH0nda!
+cf-org: "Northeast / Canada"
+cf-space: agregory
 cf-manifest-host:
-cf-api-aws:
-cf-username-aws:
-cf-password-aws:
-cf-org-aws:
-cf-space-aws:
-cf-manifest-host-prod-aws:
+cf-api-aws: api.sys.srt.aws.arg-pivotal.com
+cf-username-aws: agregory@pivotal.io
+cf-password-aws: tprod877
+cf-org-aws: org1
+cf-space-aws: concourse-demo
+cf-manifest-host-prod-aws: concourse-demo-app
 cf-api-gcp:
 cf-username-gcp:
 cf-password-gcp:
